@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<package >
+  <metadata>
+    <id>Adfa.Bot.Builder.ApiAi</id>
+    <version>0.1.1</version>
+    <title>Api.ai integration with Microsoft C# Bot Builder's LuisDialog.</title>
+    <authors>Adebisi Foluso A.</authors>
+    <owners>Adebisi Foluso A.</owners>
+    <licenseUrl>https://github.com/adebisi-fa/Bot.Builder.ApiAi/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/adebisi-fa/Bot.Builder.ApiAi</projectUrl>
+    <iconUrl>http://uploads.webflow.com/565d5a0cdee07e0131e751d2/565d5a0d6555090131ce1561_botan_logo.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Api.ai integration with Microsoft C# Bot Builder's LuisDialog.</description>
+    <releaseNotes>
+      Implements the C# Bot Builder's ILuisService for the Api.ai NLP service.
+    </releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Luis Api.ai NLP</tags>
+    <dependencies>
+      <dependency id="ApiAiSDK" version="1.6.5" />
+      <dependency id="Microsoft.Bot.Builder" version="3.5.0" />
+    </dependencies>
+  </metadata>
+</package>
